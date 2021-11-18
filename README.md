@@ -5,5 +5,5 @@ Designing an all in one Home Automation with Advance features
 3. LED control is automatic using PIR Sensor
 4. Touch Less Door Bell
 5. Automaic Door with RFID and Monitoring who enters and who leaves.
-6. ANdroid App is designed with KODULAR(Same as MIT APP Inventor).
-7. Front-end is ready connecting with Firebase is in progress.
+6. Amdroid App is designed with KODULAR(Same as MIT APP Inventor).
+7. Front-end is designed in HTML5, CSS3, JavaScript and Firebase is used as a Back-end.
