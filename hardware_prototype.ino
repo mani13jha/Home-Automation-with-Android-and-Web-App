@@ -36,11 +36,11 @@ DHT dht(dht22, dht_type);         //Initialize DHT sensor
 MFRC522 rfid(SS_PIN, RST_PIN);    //Create MFRC522 instance
 
 
-String ac_relay_val     = "0", ac_relay_val2     = "0";           //Defining AC Current Status and Firebase 
-String tv_relay_val     = "0", tv_relay_val2     = "0";           //Defining TV Current Status and Firebase
-String led_relay_val    = "0", led_relay_val2    = "0";           //Defining Led Current Status and Firebase
-String fan_relay_val    = "0", fan_relay_val2    = "0";           //Defining Fan Current Status and Firebase
-String fridge_relay_val = "0", fridge_relay_val2 = "0";           //Defining Fridge Current Status and Firebase
+String ac_relay_val     = "0", ac_relay_val2     = "0";           //Defining AC Current and Firebase Status 
+String tv_relay_val     = "0", tv_relay_val2     = "0";           //Defining TV Current and Firebase Status
+String led_relay_val    = "0", led_relay_val2    = "0";           //Defining Led Current and Firebase Status
+String fan_relay_val    = "0", fan_relay_val2    = "0";           //Defining Fan Current and Firebase Status
+String fridge_relay_val = "0", fridge_relay_val2 = "0";           //Defining Fridge Current and Firebase Status
 
 bool entry1 = 0;  //Monitoring the entry or leave
 bool entry2 = 0;  //Monitoring the entry or leave
