@@ -7,10 +7,10 @@
 #include <DHT.h>                 //Including Library for Temperature Sensor
 
 #define WIFI_SSID     "*************"                             //Define the WiFi SSID
-#define WIFI_PASSWORD "*************"                            //Define the WiFi Password
-#define DATABASE_URL  "***************************************"     //Define the RTDB URL
-#define API_KEY       "***************************************"  //Define the API Key
-#define USER_EMAIL    "**************"                  //Define the user Email 
+#define WIFI_PASSWORD "*************"                             //Define the WiFi Password
+#define DATABASE_URL  "***************************************"   //Define the RTDB URL
+#define API_KEY       "***************************************"   //Define the API Key
+#define USER_EMAIL    "**************"                            //Define the user Email 
 #define USER_PASSWORD "**************"                            //and password that alreadey registerd or added in your project
 
 #define dht_type     DHT22        //Define DHT type that is in using(DHT22)
