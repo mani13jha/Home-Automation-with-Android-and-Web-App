@@ -6,12 +6,12 @@
 #include <SPI.h>                 //Library for RFID SPI communication with ESP32
 #include <DHT.h>                 //Including Library for Temperature Sensor
 
-#define WIFI_SSID     "Maninder Jha"                             //Define the WiFi SSID
-#define WIFI_PASSWORD "M@ni13jh@1999"                            //Define the WiFi Password
-#define DATABASE_URL  "home-automation-e2edd.firebaseio.com"     //Define the RTDB URL
-#define API_KEY       "AIzaSyAb-sg7W8ehCG69EdS08KMYEYtSGhI86lg"  //Define the API Key
-#define USER_EMAIL    "mani13jha1999@gmail.com"                  //Define the user Email 
-#define USER_PASSWORD "M@ni13jh@1999"                            //and password that alreadey registerd or added in your project
+#define WIFI_SSID     "*************"                             //Define the WiFi SSID
+#define WIFI_PASSWORD "*************"                            //Define the WiFi Password
+#define DATABASE_URL  "***************************************"     //Define the RTDB URL
+#define API_KEY       "***************************************"  //Define the API Key
+#define USER_EMAIL    "**************"                  //Define the user Email 
+#define USER_PASSWORD "**************"                            //and password that alreadey registerd or added in your project
 
 #define dht_type     DHT22        //Define DHT type that is in using(DHT22)
 #define onboard_led      2        //Enabling On Board LED of ESP32 on pin D2
